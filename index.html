@@ -1,92 +1,183 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>hrhrdhr</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="design.css">
     </head>
     <body>
-     
-          </style>
-          </head>
-          <body>
-          
-          <div class="header">
-            <h1>Wikipedia</h1>
-            <p>Welcome to Wikipedia</p>
-            <p>the free encyclopedia that anyone can edit</p>
-            <span style="border: 1px solid black">Search</span>
-          </div>
-          
-         
-          
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">Categories</a>
-              <div class="dropdown-content">
-                <a href="#">Science</a>
-                <a href="#">Technology</a>
-                <a href="#">Geography</a>
-                <a href="#">Philosophy</a>
-                <a href="#">World History</a>
-                <a href="#">Sports</a>
-                <a href="#">Arts</a>
-                <a href="#">Government</a>
-                <a href="#">Entertainment</a>
-                <a href="#">Literature</a>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <navbar>
+            <div class="navbar nav navbar-fixed-top navbar-inverse">
+              <div class="container-fluid">
+                <div class="v-flex">
+                  <div class="navbar-body">
+                    <div class="navbar-start">
+                      <div class="hamburger-menu">
+                        <div class="ic_menu">
+                                      <span></span>
+                                      <span></span>
+                                      <span></span>
+                                  </div>
+                      </div>
+                      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">
+                    </div>
+                    <div class="search">
+                      <input type="text" class="search-textbox" placeholder="Wiki Search...">
+                      <a class="ico-btn search-btn"><i class="material-icons ic_search">&#xE8B6;</i></a>
+                      <a class="ico-btn clear-btn"><i class="material-icons ic_clear">&#xE14C;</i></a>
+                    </div>
+                    <div class="navbar-end">
+                      <a style="text-transform: uppercase">Click for Free Git hub t-shirt</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="navbar navbar-fixed-top navbar-inverse tabs paper-shadow-bottom-z-2">
+              <div class="container-fluid">
+                <ul class="navbar-body list-inline">
+                  <li ><a>WikiHome</a></li>
+                  <li ><a>Read</a></li>
+                  <li><a>View Soure</a></li>
+                  <li><a>View History</a></li>
+                </ul>
+                <div class="tab-highlighter"></div>
+              </div>
+            </div>
+            <!--2 navbar for pushing 1 above after scrolling (Not Implemented yet.)-->
+          </navbar>
+        <!-- <div class="wrap">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="WikiSearch...">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div> --><div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+        <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+        <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+        <h3>Let Me Tell You About This Steak</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+        <h3>Cherries, interrupted</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <p>What else?</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+        <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+    </div>
+    
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+        <h3>All I Need Is a Popsicle</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+        <h3>Salmon For Your Skin</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+        <h3>The Perfect Sandwich, A Real Classic</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+        <h3>Le French</h3>
+        <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+    </div>
+  
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+      </div>
+    </div>
+    
+    <hr id="about">
+  
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">  
+      <h3>About Me, The Food Man</h3><br>
+      <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+      <div class="w3-padding-32">
+        <h4><b>I am Who I Am!</b></h4>
+        <h6><i>With Passion For Real, Good Food</i></h6>
+        <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <hr>
+    
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lorem</span><br>
+            <span>Sed mattis nunc</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Ipsum</span><br>
+            <span>Praes tinci sed</span>
+          </li> 
+        </ul>
+      </div>
+  
+      <div class="w3-third w3-serif">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+        </p>
+      </div>
+    </footer>
+  
+  <!-- End page content -->
+  </div>
 
-          
-          
-          
-          <div class="row">
-            <div class="leftcolumn">
-              <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg" style="height:200px;">
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Alyssa_Healy_cropped.jpg/180px-Alyssa_Healy_cropped.jpg" height = "170px"
-                <p>Alyssa Healy.</p>
-                <p>In cricket, the Women's T20 World Cup concludes with Australia defeating India in the final</p>
-              </div>
-                
-              </div>
-              <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-              </div>
-            </div>
-            <div class="rightcolumn">
-              <div class="card">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-              </div>
-              <div class="card">
-                <h3>Popular Post</h3>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-              </div>
-              <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="footer">
-            <h2>Footer</h2>
-          </div>
-        <script src="" async defer></script>
+        <script src="newJs.js" async defer></script>
     </body>
 </html>
