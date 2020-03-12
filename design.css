@@ -72,7 +72,7 @@ navbar .container-fluid{
     left:0;
 }
 navbar .navbar-body{
-    display: flex;
+    list-style: none;
     display: -webkit-flex;
     flex-direction: row;
     align-items: center;
