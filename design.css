@@ -11,8 +11,14 @@
   transform: translate(-50%, -50%);
 }
 
+/*classes for the featured articles box*/
 .featured {padding-left: 250px; padding-right: 250px;}
 .shadowbox {box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); margin-left: 250px; margin-right: 250px;}
+
+a:link {
+    text-decoration: none;
+    color: #16528e;
+  }
 
 /*Styling links*/
 navbar a{
